@@ -1,0 +1,33 @@
+{
+  "name": "yoo-cli",
+  "version": "1.0.0",
+  "description": "A simple CLI",
+  "main": "index.js",
+  "bin": {
+    "yoo-cli": "./bin/yoo-cli",
+    "yoo-cli-add": "bin/yoo-cli-add",
+    "yoo-cli-delete": "bin/yoo-cli-delete",
+    "yoo-cli-list": "bin/yoo-cli-list",
+    "yoo-cli-init": "bin/yoo-cli-init"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Yoo-96/yoo-cli"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "CLI yoo-cli"
+  ],
+  "author": "yoo",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^16.10.3",
+    "chalk": "^4.1.2",
+    "commander": "^8.2.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^8.2.0",
+    "ora": "^3.2.0"
+  }
+}
