@@ -1,14 +1,14 @@
 {
   "name": "yoo-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple CLI",
   "main": "index.js",
   "bin": {
-    "yoo-cli": "./bin/yoo-cli",
-    "yoo-cli-add": "bin/yoo-cli-add",
-    "yoo-cli-delete": "bin/yoo-cli-delete",
-    "yoo-cli-list": "bin/yoo-cli-list",
-    "yoo-cli-init": "bin/yoo-cli-init"
+    "yoo-cli": "bin/yoo-cli.js",
+    "yoo-cli-add": "bin/yoo-cli-add.js",
+    "yoo-cli-delete": "bin/yoo-cli-delete.js",
+    "yoo-cli-list": "bin/yoo-cli-list.js",
+    "yoo-cli-init": "bin/yoo-cli-init.js"
   },
   "repository": {
     "type": "git",
